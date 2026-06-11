@@ -475,24 +475,45 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.
     </div>
   </div>
 </section>
-<a href="https://forms.gle/7yFDjRTGh4A48aPw6" target="_blank" class="form-btn">
-    Contact Me
-</a>
+<!-- Contact Me Button -->
+<div class="contact-section">
+    <a href="https://forms.gle/FKr4wT4KhZiwqTzg9"
+       target="_blank"
+       class="contact-btn">
+       Contact Me
+    </a>
+</div>
 
 <style>
-.form-btn {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #4285F4;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
+.contact-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:50px 0;
 }
 
-.form-btn:hover {
-    background-color: #3367D6;
+.contact-btn{
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+    color:#fff;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:600;
+    letter-spacing:0.5px;
+    box-shadow:0 8px 20px rgba(37,99,235,0.25);
+    transition:all 0.3s ease;
 }
+
+.contact-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 25px rgba(37,99,235,0.35);
+}
+
+.contact-btn:active{
+    transform:translateY(0);
+}
+</style>
 </style>
 <section id="contact">
   <div class="contact-inner">
